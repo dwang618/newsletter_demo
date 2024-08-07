@@ -1,16 +1,21 @@
 # umee_app
 
-A new Flutter project.
+newsletter_demo app using Flutter, Provider, and SharedPreferences
 
-## Getting Started
+design to create user specific accounts with registered posts and a general feed of posts on the 
+home screen, also includes likes and dislikes functionality
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Login screen -> 
+    enter a username and submit using 'Login' button to register a new account
+        new accounts will automatically be sent to a newly created homepage
+    prior accounts will have an icon that allows for easy access to previous posts
+Home Page ->
+    general newsfeed contains a listing of posts with the recent-most showing first
+        posts can be clicked on for a more direct view of its contents and its details
+    contains two navigation icons on the top right
+        the triple dotted icon creates a logout popup menu that brings the user back to the login screen
+Profile screen ->
+    clicking the person icon will bring the user to the profile screen which better showcases
+    all of the user's post history as well their like and dislike ratios
+        users also have the option to create new posts here or delete all their posts
+    these posts can also be clicked for a more direct view of post contents and details
